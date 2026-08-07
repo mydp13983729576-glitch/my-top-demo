@@ -1,14 +1,18 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Document</title>
   </head>
   <body>
-    <div id="app"></div>
-
-    <script type="module" src="/src/main.js"></script>
+    <button id="btn">点我输出</button>
+    <script>
+      btn.addEventListener('click', function () {
+        // 在HTML文档中输出纯文本节点
+        document.write('hello ,.world')
+      })
+    </script>
   </body>
 </html>
+
